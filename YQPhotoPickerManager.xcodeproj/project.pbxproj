@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8C25881F26DF2200BCA4C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25871F26DF2200BCA4C9 /* main.m */; };
+		DE8C258B1F26DF2200BCA4C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C258A1F26DF2200BCA4C9 /* AppDelegate.m */; };
+		DE8C258E1F26DF2200BCA4C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C258D1F26DF2200BCA4C9 /* ViewController.m */; };
+		DE8C25931F26DF2200BCA4C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8C25921F26DF2200BCA4C9 /* Assets.xcassets */; };
+		DE8C25961F26DF2200BCA4C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8C25941F26DF2200BCA4C9 /* LaunchScreen.storyboard */; };
+		DE8C25A11F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25A01F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.m */; };
+		DE8C25AC1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25AB1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.m */; };
+		DE8C25BB1F26DF3900BCA4C9 /* YQPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8C25BA1F26DF3900BCA4C9 /* YQPhotoPickerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8C259D1F26DF2200BCA4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C257B1F26DF2200BCA4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C25821F26DF2200BCA4C9;
+			remoteInfo = YQPhotoPickerManager;
+		};
+		DE8C25A81F26DF2200BCA4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8C257B1F26DF2200BCA4C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8C25821F26DF2200BCA4C9;
+			remoteInfo = YQPhotoPickerManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE8C25831F26DF2200BCA4C9 /* YQPhotoPickerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQPhotoPickerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25871F26DF2200BCA4C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8C25891F26DF2200BCA4C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE8C258A1F26DF2200BCA4C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE8C258C1F26DF2200BCA4C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE8C258D1F26DF2200BCA4C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE8C25921F26DF2200BCA4C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8C25951F26DF2200BCA4C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE8C25971F26DF2200BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C259C1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQPhotoPickerManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25A01F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPhotoPickerManagerTests.m; sourceTree = "<group>"; };
+		DE8C25A21F26DF2200BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C25A71F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQPhotoPickerManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8C25AB1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPhotoPickerManagerUITests.m; sourceTree = "<group>"; };
+		DE8C25AD1F26DF2200BCA4C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8C25B91F26DF3900BCA4C9 /* YQPhotoPickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQPhotoPickerManager.h; sourceTree = "<group>"; };
+		DE8C25BA1F26DF3900BCA4C9 /* YQPhotoPickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQPhotoPickerManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8C25801F26DF2200BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25991F26DF2200BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25A41F26DF2200BCA4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8C257A1F26DF2200BCA4C9 = {
+			isa = PBXGroup;
+			children = (
+				DE8C25851F26DF2200BCA4C9 /* YQPhotoPickerManager */,
+				DE8C259F1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests */,
+				DE8C25AA1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests */,
+				DE8C25841F26DF2200BCA4C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8C25841F26DF2200BCA4C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25831F26DF2200BCA4C9 /* YQPhotoPickerManager.app */,
+				DE8C259C1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.xctest */,
+				DE8C25A71F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8C25851F26DF2200BCA4C9 /* YQPhotoPickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25891F26DF2200BCA4C9 /* AppDelegate.h */,
+				DE8C258A1F26DF2200BCA4C9 /* AppDelegate.m */,
+				DE8C258C1F26DF2200BCA4C9 /* ViewController.h */,
+				DE8C258D1F26DF2200BCA4C9 /* ViewController.m */,
+				DE8C25B91F26DF3900BCA4C9 /* YQPhotoPickerManager.h */,
+				DE8C25BA1F26DF3900BCA4C9 /* YQPhotoPickerManager.m */,
+				DE8C25921F26DF2200BCA4C9 /* Assets.xcassets */,
+				DE8C25941F26DF2200BCA4C9 /* LaunchScreen.storyboard */,
+				DE8C25971F26DF2200BCA4C9 /* Info.plist */,
+				DE8C25861F26DF2200BCA4C9 /* Supporting Files */,
+			);
+			path = YQPhotoPickerManager;
+			sourceTree = "<group>";
+		};
+		DE8C25861F26DF2200BCA4C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25871F26DF2200BCA4C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE8C259F1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25A01F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.m */,
+				DE8C25A21F26DF2200BCA4C9 /* Info.plist */,
+			);
+			path = YQPhotoPickerManagerTests;
+			sourceTree = "<group>";
+		};
+		DE8C25AA1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8C25AB1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.m */,
+				DE8C25AD1F26DF2200BCA4C9 /* Info.plist */,
+			);
+			path = YQPhotoPickerManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8C25821F26DF2200BCA4C9 /* YQPhotoPickerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C25B01F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManager" */;
+			buildPhases = (
+				DE8C257F1F26DF2200BCA4C9 /* Sources */,
+				DE8C25801F26DF2200BCA4C9 /* Frameworks */,
+				DE8C25811F26DF2200BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQPhotoPickerManager;
+			productName = YQPhotoPickerManager;
+			productReference = DE8C25831F26DF2200BCA4C9 /* YQPhotoPickerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8C259B1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C25B31F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManagerTests" */;
+			buildPhases = (
+				DE8C25981F26DF2200BCA4C9 /* Sources */,
+				DE8C25991F26DF2200BCA4C9 /* Frameworks */,
+				DE8C259A1F26DF2200BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C259E1F26DF2200BCA4C9 /* PBXTargetDependency */,
+			);
+			name = YQPhotoPickerManagerTests;
+			productName = YQPhotoPickerManagerTests;
+			productReference = DE8C259C1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8C25A61F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8C25B61F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManagerUITests" */;
+			buildPhases = (
+				DE8C25A31F26DF2200BCA4C9 /* Sources */,
+				DE8C25A41F26DF2200BCA4C9 /* Frameworks */,
+				DE8C25A51F26DF2200BCA4C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8C25A91F26DF2200BCA4C9 /* PBXTargetDependency */,
+			);
+			name = YQPhotoPickerManagerUITests;
+			productName = YQPhotoPickerManagerUITests;
+			productReference = DE8C25A71F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8C257B1F26DF2200BCA4C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "俞琦";
+				TargetAttributes = {
+					DE8C25821F26DF2200BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+					};
+					DE8C259B1F26DF2200BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8C25821F26DF2200BCA4C9;
+					};
+					DE8C25A61F26DF2200BCA4C9 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7HPM4L27W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8C25821F26DF2200BCA4C9;
+					};
+				};
+			};
+			buildConfigurationList = DE8C257E1F26DF2200BCA4C9 /* Build configuration list for PBXProject "YQPhotoPickerManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8C257A1F26DF2200BCA4C9;
+			productRefGroup = DE8C25841F26DF2200BCA4C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8C25821F26DF2200BCA4C9 /* YQPhotoPickerManager */,
+				DE8C259B1F26DF2200BCA4C9 /* YQPhotoPickerManagerTests */,
+				DE8C25A61F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8C25811F26DF2200BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25961F26DF2200BCA4C9 /* LaunchScreen.storyboard in Resources */,
+				DE8C25931F26DF2200BCA4C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C259A1F26DF2200BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25A51F26DF2200BCA4C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8C257F1F26DF2200BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C258E1F26DF2200BCA4C9 /* ViewController.m in Sources */,
+				DE8C258B1F26DF2200BCA4C9 /* AppDelegate.m in Sources */,
+				DE8C25BB1F26DF3900BCA4C9 /* YQPhotoPickerManager.m in Sources */,
+				DE8C25881F26DF2200BCA4C9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25981F26DF2200BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25A11F26DF2200BCA4C9 /* YQPhotoPickerManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8C25A31F26DF2200BCA4C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8C25AC1F26DF2200BCA4C9 /* YQPhotoPickerManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8C259E1F26DF2200BCA4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C25821F26DF2200BCA4C9 /* YQPhotoPickerManager */;
+			targetProxy = DE8C259D1F26DF2200BCA4C9 /* PBXContainerItemProxy */;
+		};
+		DE8C25A91F26DF2200BCA4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8C25821F26DF2200BCA4C9 /* YQPhotoPickerManager */;
+			targetProxy = DE8C25A81F26DF2200BCA4C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8C25941F26DF2200BCA4C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8C25951F26DF2200BCA4C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8C25AE1F26DF2200BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE8C25AF1F26DF2200BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE8C25B11F26DF2200BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE8C25B21F26DF2200BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE8C25B41F26DF2200BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQPhotoPickerManager.app/YQPhotoPickerManager";
+			};
+			name = Debug;
+		};
+		DE8C25B51F26DF2200BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQPhotoPickerManager.app/YQPhotoPickerManager";
+			};
+			name = Release;
+		};
+		DE8C25B71F26DF2200BCA4C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQPhotoPickerManager;
+			};
+			name = Debug;
+		};
+		DE8C25B81F26DF2200BCA4C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = E7HPM4L27W;
+				INFOPLIST_FILE = YQPhotoPickerManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YuQi.YQPhotoPickerManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YQPhotoPickerManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8C257E1F26DF2200BCA4C9 /* Build configuration list for PBXProject "YQPhotoPickerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25AE1F26DF2200BCA4C9 /* Debug */,
+				DE8C25AF1F26DF2200BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8C25B01F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25B11F26DF2200BCA4C9 /* Debug */,
+				DE8C25B21F26DF2200BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8C25B31F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25B41F26DF2200BCA4C9 /* Debug */,
+				DE8C25B51F26DF2200BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE8C25B61F26DF2200BCA4C9 /* Build configuration list for PBXNativeTarget "YQPhotoPickerManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8C25B71F26DF2200BCA4C9 /* Debug */,
+				DE8C25B81F26DF2200BCA4C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8C257B1F26DF2200BCA4C9 /* Project object */;
+}
