@@ -40,3 +40,7 @@
 ![效果.gif](http://upload-images.jianshu.io/upload_images/2312304-be9b28b761683a3a.gif?imageMogr2/auto-orient/strip)
 
 由于模拟机，就只放了相册的效果。
+
+
+## 最后
+[简书地址:一行代码搞定相机相册的权限以及照片获取](http://www.jianshu.com/p/a962729bce0e)
